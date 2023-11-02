@@ -1,14 +1,14 @@
 function AboutMe() {
   return (
     <div className="grid grid-rows-2">
-      <div className="px-4 py-4 w-60">
+      <div className="px-4 py-6 w-40">
         <img
           src="metTesting.jpg"
           alt=""
           className="rounded-full bg-slate-400"
         />
       </div>
-      <div className="grid grid-rows-2 gap-x-8 px-3 py-4">
+      <div className="grid grid-rows-2 gap-x-8 px-3 pt-4">
         <div className="px-">
           <p className="text-sm leading-2 font-semibold text-stone-600">
             I am a JavaScript developer with beginner to intermediate skills. My
