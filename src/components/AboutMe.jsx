@@ -1,6 +1,9 @@
 function AboutMe() {
   return (
-    <div className="flex gap-2 sm: px-3 py-3">
+    <div className="grid grid-rows-2">
+      <div className="px-4 py-4">
+        <img src="metTesting.jpg" alt="" className="" />
+      </div>
       <div className="grid grid-rows-2 gap-x-8 px-3 py-4">
         <div className="">
           <p className="text-sm leading-2 font-semibold text-stone-600">
@@ -24,9 +27,6 @@ function AboutMe() {
             compétences et je serai prêt à passer tout test d’aptitudes..
           </p>
         </div>
-      </div>
-      <div>
-        <img src="metTesting.jpg" alt="" className="" />
       </div>
     </div>
   );
