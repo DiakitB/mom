@@ -15,7 +15,7 @@ function Main() {
           >
             React Projects
           </NavLink>
-          <p className=" text-sm drop-shadow-xl">
+          <p className="sm: text-sm drop-shadow-2xl border  p-3">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
             perspiciatis reprehenderit officia maiores nam provident, quod
             vitae. Saepe ab corporis, expedita quasi suscipit inventore
@@ -24,12 +24,12 @@ function Main() {
         </div>
         <div className="flex gap-3 py-3 ">
           <NavLink
-            className="rounded-sm bg-blue-500 px-3 py-8 text-sm font-semibold uppercase tracking-wide text-green-50"
+            className="sm:rounded-sm bg-blue-500 px-3 py-8 text-sm font-semibold uppercase tracking-wide text-green-50"
             to="/cSharpApp"
           >
             C # Projects
           </NavLink>
-          <p className=" text-sm drop-shadow-xl">
+          <p className="sm: text-sm drop-shadow-2xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
             perspiciatis reprehenderit officia maiores nam provident, quod
             vitae. Saepe ab corporis, expedita quasi suscipit inventore
@@ -39,12 +39,12 @@ function Main() {
 
         <div className="flex gap-3 py-3 ">
           <NavLink
-            className="rounded-sm bg-blue-500 px-3 py-8 text-sm font-semibold uppercase tracking-wide text-green-50"
+            className="sm:rounded-sm bg-blue-500 px-3 py-8 text-sm font-semibold uppercase tracking-wide text-green-50"
             to="/reactApp"
           >
             NODE JS Projects
           </NavLink>
-          <p className=" text-sm drop-shadow-xl">
+          <p className="sm: text-sm drop-shadow-2xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
             perspiciatis reprehenderit officia maiores nam provident, quod
             vitae. Saepe ab corporis, expedita quasi suscipit inventore
@@ -58,7 +58,7 @@ function Main() {
           >
             CSS && HTML Projects
           </NavLink>
-          <p className=" text-sm drop-shadow-xl">
+          <p className="sm: text-sm drop-shadow-2xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
             perspiciatis reprehenderit officia maiores nam provident, quod
             vitae. Saepe ab corporis, expedita quasi suscipit inventore

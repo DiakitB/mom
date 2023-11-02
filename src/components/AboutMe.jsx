@@ -1,8 +1,8 @@
 function AboutMe() {
   return (
     <div className="grid grid-rows-2">
-      <div className="px-4 py-6 ">
-        <img src="metTesting.jpg" alt="" className="h-30 py-5" />
+      <div className="px-0 mt-0  ">
+        <img src="metTesting.jpg" alt="" className="h-20 py-1" />
       </div>
       <div className="grid grid-rows-2 gap-x-8 px-3 pt-4">
         <div className="px-">
