@@ -7,10 +7,10 @@ function Main() {
       <div>
         <AboutMe />
       </div>
-      <div className="px-5">
+      <div className="px-3">
         <div className="flex gap-3 py-3 ">
           <NavLink
-            className="sm:rounded bg-blue-500 px-3 py-8 text-sm font-semibold uppercase tracking-wide text-green-50"
+            className="sm:rounded-sm bg-blue-500 px-3 py-8 text-sm font-semibold uppercase tracking-wide text-green-50"
             to="/reactApp"
           >
             React Projects
@@ -24,7 +24,7 @@ function Main() {
         </div>
         <div className="flex gap-3 py-3 ">
           <NavLink
-            className="rounded bg-blue-500 px-3 py-8 text-sm font-semibold uppercase tracking-wide text-green-50"
+            className="rounded-sm bg-blue-500 px-3 py-8 text-sm font-semibold uppercase tracking-wide text-green-50"
             to="/cSharpApp"
           >
             C # Projects
@@ -39,7 +39,7 @@ function Main() {
 
         <div className="flex gap-3 py-3 ">
           <NavLink
-            className="rounded bg-blue-500 px-3 py-8 text-sm font-semibold uppercase tracking-wide text-green-50"
+            className="rounded-sm bg-blue-500 px-3 py-8 text-sm font-semibold uppercase tracking-wide text-green-50"
             to="/reactApp"
           >
             NODE JS Projects
@@ -53,7 +53,7 @@ function Main() {
         </div>
         <div className="flex gap-3 py-3 ">
           <NavLink
-            className="sm:rounded bg-blue-500 px-3 py-8 text-sm font-semibold uppercase tracking-wide text-green-50"
+            className="sm:rounded-sm bg-blue-500 px-3 py-8 text-sm font-semibold uppercase tracking-wide text-green-50"
             to="/reactApp"
           >
             CSS && HTML Projects
