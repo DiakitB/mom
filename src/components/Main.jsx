@@ -24,12 +24,12 @@ function Main() {
         </div>
         <div className="flex gap-3 py-3 ">
           <NavLink
-            className="rounded-md bg-green-500 px-3 py-0 text-sm font-semibold uppercase tracking-wide text-green-50"
+            className="rounded-md bg-green-500 px-3 py-8 text-sm font-semibold uppercase tracking-wide text-green-50"
             to="/cSharpApp"
           >
             C # Projects
           </NavLink>
-          <p>
+          <p className=" text-sm drop-shadow-xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
             perspiciatis reprehenderit officia maiores nam provident, quod
             vitae. Saepe ab corporis, expedita quasi suscipit inventore
@@ -42,9 +42,9 @@ function Main() {
             className="rounded-md bg-green-500 px-3 py-8 text-sm font-semibold uppercase tracking-wide text-green-50"
             to="/reactApp"
           >
-            React Projects
+            NODE JS Projects
           </NavLink>
-          <p>
+          <p className=" text-sm drop-shadow-xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
             perspiciatis reprehenderit officia maiores nam provident, quod
             vitae. Saepe ab corporis, expedita quasi suscipit inventore
@@ -56,9 +56,9 @@ function Main() {
             className="sm:rounded-md bg-green-500 px-3 py-8 text-sm font-semibold uppercase tracking-wide text-green-50"
             to="/reactApp"
           >
-            React Projects
+            CSS && HTML Projects
           </NavLink>
-          <p>
+          <p className=" text-sm drop-shadow-xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
             perspiciatis reprehenderit officia maiores nam provident, quod
             vitae. Saepe ab corporis, expedita quasi suscipit inventore
