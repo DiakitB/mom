@@ -1,19 +1,16 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import HomePage from "./pages/HomePage";
-import FirstApp from "./components/FirstApp";
-import SecondApp from "./components/SecondApp";
-
-const router = createBrowserRouter([
-  { path: "/", element: <HomePage /> },
-  { path: "reactApp", element: <FirstApp /> },
-  {
-    path: "cSharpApp",
-    element: <SecondApp />,
-  },
-]);
-
-function App() {
-  return <RouterProvider router={router}></RouterProvider>;
+import About from "./component/About";
+import Contact from "./component/Contact";
+import NavLayout from "./component/NavLayout";
+import Projects from "./component/Projects";
+import Skills from "./component/Skill";
+export default function App() {
+  return (
+    <main className="tex-gray400 bg-gray-900 body-font">
+      <NavLayout />
+      <About />
+      <Projects />
+      <Skills />
+      <Contact />
+    </main>
+  );
 }
-
-export default App;
